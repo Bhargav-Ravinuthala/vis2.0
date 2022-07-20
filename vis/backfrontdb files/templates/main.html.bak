@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+	<!-- stylesheet -->
+	-
+	<link rel="stylesheet" href='/static/mystyle.css'>
+
+</head>
+
+<body>
+<h1> SIGN UP/ SIGNUP To take exam</h1>
+
+      <div class="topnav">
+        
+        <a href="{{ url_for('signin') }}">SIGN IN</a>
+        <!--<a href="{{ url_for('signup') }}">SIGN UP</a> -->
+		<a class="active" href="#home">HOME</a>
+      </div>
+    
+      
+        <div class="hero-text">
+          <h1>SQL Login form</h1>
+          <h2>Secured with client-side sha256 encryption.</h2>
+          <h2>Create a user, try to retrieve it.</h2>
+          
+        </div>
+      </div>
+
+</body>
+                    
+</html>
